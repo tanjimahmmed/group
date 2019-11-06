@@ -5,7 +5,7 @@
 
 		// -- start work -- //
 
-		// service slider
+		/*~-~-~- service slider ~-~-~-*/
 
 		$(".listing_carousel").owlCarousel({
 			items: 3,
@@ -35,7 +35,7 @@
 		});
 
 
-		// portfolio
+		/*~-~-~- portfolio ~-~-~-*/
 
 		$(".portfolio_filter li").on('click', function () {
 			$(".portfolio_filter li").removeClass("active");
@@ -48,7 +48,7 @@
 		});
 		$(".portfolio_list").isotope();
 
-		//   magnific gallery
+		/*~-~-~- magnific gallery ~-~-~-*/
 
 		$(".large_image").magnificPopup({
 			type: 'image',
@@ -57,7 +57,7 @@
 			}
 		});
 
-		// trusted partners area
+		/*~-~-~- trusted partners area ~-~-~-*/
 
 		$(".logo_carousel").owlCarousel({
 			items: 5,
@@ -84,7 +84,7 @@
 			}
 		});
 
-		// sticky header
+		/*~-~-~- sticky header ~-~-~-*/
 		$(".header_area").sticky({
 			topSpacing: 0
 		});
@@ -99,11 +99,11 @@
 			e.preventDefault();
 		});
 
-		// wow 
+		/*~-~-~- wow ~-~-~-*/
 
 		new WOW().init();
 
-		// scroll to top
+		/*~-~-~- scroll to top ~-~-~-*/
 		$(window).scroll(function () {
 			if ($(this).scrollTop() > 100) {
 				$('.back-to-top').fadeIn('slow');
@@ -119,7 +119,7 @@
 		});
 
 
-		// responsive menu
+		/*~-~-~- responsive menu  ~-~-~-*/
 
 		$("ul#navigation").slicknav({
 			prependTo: ".responsive_menu_wrap"
@@ -128,8 +128,8 @@
 		// -- End work -- //
 
 	});
-	// preloader
 	jQuery(window).load(function () {
+		/*~-~-~- preloader  ~-~-~-*/
 		$('.spinner').fadeOut();
 		$('.eastern_group_preloader_wrap').delay(450).fadeOut('slow');
 	});
