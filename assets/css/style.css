@@ -275,6 +275,12 @@ body {
 	margin: 10px 0;
 }
 
+.managing_director_img img {
+    height: 300px;
+    width: 270px;
+    border-radius: 3px;
+}
+
 /*~~~ about us end ~~~*/
 
 /*~~~ service area ~~~*/
@@ -582,38 +588,6 @@ ul.portfolio_filter li.active {
 /*~~~ Gallery area end ~~~*/
 
 /*~~~ team member area ~~~*/
-
-.single_team_item {
-	border: 1px solid #efefef;
-}
-
-.team_item_img {
-	position: relative;
-	text-align: center;
-}
-
-a.team_link i {
-	display: none;
-}
-
-.team_item_description {
-	text-align: center;
-	text-transform: uppercase;
-}
-
-.team_item_description h4 {
-	color: #444;
-	font-size: 16px;
-	font-weight: 800;
-	margin-top: 20px;
-	margin-bottom: 10px;
-}
-
-.team_item_description h6 {
-	color: #999999;
-	font-size: 12px;
-}
-
 .team_item_social {
 	position: relative;
 	height: 40px;
@@ -645,48 +619,8 @@ a.team_link i {
 	color: #333;
 }
 
-.single_team_item:hover a.team_link {
-	background-color: rgba(2, 168, 244, 0.50);
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	right: 0;
-}
-
-.single_team_item:hover a.team_link i {
-	position: absolute;
-	display: block;
-	top: 50%;
-	left: 0;
-	right: 0;
-	color: #fff;
-	font-size: 20px;
-	margin: 0 auto;
-}
-
-.single_team_item:hover .facebook {
-	background: #3b5998;
-}
-
-.single_team_item:hover .twitter {
-	background-color: #55acee;
-}
-
-.single_team_item:hover .linkdin {
-	background-color: #0077B5;
-}
-
-.single_team_item:hover .google {
-	background-color: #DD5044;
-}
-
 .single_team_item:hover .team_item_social ul li a {
 	color: #fff;
-}
-
-.single_team_item:hover {
-	border: 1px solid #02a8f4;
 }
 
 /*~~~ team member area end ~~~*/
@@ -992,3 +926,21 @@ a {
 }
 
 /*~~~ responsive menu end ~~~*/
+
+/*~~~ blog area ~~~*/
+.single_slide_item.details_company {
+    height: 250px;
+    background-attachment: inherit;
+    background-position: center 20%;
+}
+.about_info_title {
+    padding-top: 20px;
+}
+
+.about_info_area_left, .about_info_area_right {
+    padding-bottom: 20px;
+}
+.pad_area_50{
+	padding-bottom: 12px;
+}
+/*~~~ blog area end ~~~*/
